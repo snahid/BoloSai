@@ -45,23 +45,36 @@
    
     <div class="top">
       <div class="container">
-        <div class="to-box">
-          <div class="left">
-            <img src="./assets/images/Picture1.png" alt="image">
+        <div class="top-box-wrapper">
+          <div class="to-box">
+            <div class="left">
+              <img src="./assets/images/Picture1.png" alt="image">
+            </div>
+            <div class="right">
+              <p>BoloSai</p>
+            </div>
           </div>
-          <div class="right">
-            <p>BoloSai</p>
+          <div class="top-right-translator">
+            <div id="google_translate_element"></div>
           </div>
         </div>
+       
       </div>
     </div>
 
+    
     <div class="middle">
       <div class="container">
         <div class="middle-top">
           <h2>Positive Sai Message</h2>
           <p>Shraddha aur saburi</p>
         </div>
+        <!-- Translator  -->
+        <div class="mtranslator">
+          <div id="google_translate_element"></div>
+        </div>
+      <!-- Translator  -->
+
         <div class="middle-inner">
           <div class="box-shadow-wrappe1">
             <div class="box-shadow-wrapper2">
@@ -101,36 +114,40 @@
     </div>
 
 
-    <div class="down">
-      <div class="container">
-        <div class="down-top">
-          <div class="left">
-            <p>View Miracles</p>
-          </div>
-          <div class="right">
-            <div class="box-down">
-              <div class="left-down">
-                <div class="down-img">
-                  <img src="./assets/images/download.png" alt="">
+
+    <div class="bottom-footer">
+      <div class="down">
+        <div class="container">
+          <div class="down-top">
+            <div class="left">
+              <p>View Miracles</p>
+            </div>
+            <div class="right">
+              <div class="box-down">
+                <div class="left-down">
+                  <div class="down-img">
+                    <img src="./assets/images/download.png" alt="">
+                  </div>
                 </div>
-              </div>
-              <div class="right-down">
-                <p>You experienced Miracles?</p>
-                <a href="#">Share it with Community</a>
+                <div class="right-down">
+                  <p>You experienced Miracles?</p>
+                  <a href="#">Share it with Community</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      
       </div>
-    
-    </div>
-    
-    <div class="footer">
-      <div class="container">
-        <p>This website is completely dedicated to Shirdi Saibaba & is meant to spread his message.. and to help everyone find answers to their problems <a href="#">Support</a>
-        </p>
+      
+      <div class="footer">
+        <div class="container">
+          <p>This website is completely dedicated to Shirdi Saibaba & is meant to spread his message.. and to help everyone find answers to their problems <a href="#">Support</a>
+          </p>
+        </div>
       </div>
     </div>
+  
 
 
 
@@ -148,6 +165,9 @@
     <script src="./js/jquery.counterup.min.js"></script>
     <script src="./js/jquery.waypoints.min.js"></script>
     <!-- counter up  -->
+    <!-- translator  -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- translator  -->
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -161,6 +181,12 @@
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom Js-->
     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+      </script>
+      
   </body>
 </html>
 
