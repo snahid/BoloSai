@@ -740,11 +740,15 @@ body::after {
     font-size: 12px;
   }
 }
-.bottom-footer .footer p img {
+.bottom-footer .footer p a {
+  font-size: 12px;
+  color: #7F7F7F;
+}
+.bottom-footer .footer p a img {
   width: 15px;
   height: 15px;
 }
-.bottom-footer .footer p span {
+.bottom-footer .footer p a span {
   font-style: italic;
 }
 
