@@ -24,6 +24,10 @@ body {
   }
 }
 
+.mmin-height {
+  min-height: 100vh;
+}
+
 .top {
   margin-bottom: 40px;
   padding-top: 20px;
@@ -788,20 +792,21 @@ body {
         font-size: 12px;
       }
 
-      a{
+      a {
         font-size: 12px;
         color: #7F7F7F;
+
         img {
           width: 15px;
           height: 15px;
         }
-  
+
         span {
           font-style: italic;
         }
       }
 
-     
+
     }
   }
 }
